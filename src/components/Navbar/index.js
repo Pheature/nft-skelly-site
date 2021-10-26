@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo onClick={toggleHome} to='/'>
-              dolla
+              NFT Skelly
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -54,7 +54,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  About
+                  Home
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -66,7 +66,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  Discover
+                  About
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -78,25 +78,11 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  Services
+                  Roadmap
                 </NavLinks>
               </NavItem>
-              <NavItem>
-                <NavLinks
-                  to='signup'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  Sign Up
-                </NavLinks>
-              </NavItem>
+             
             </NavMenu>
-            <NavBtn>
-              <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-            </NavBtn>
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>
