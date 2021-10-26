@@ -4,9 +4,9 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'NFT Skelly',
-  headline: 'Skellies',
+  headline: 'Rarities',
   description:
-    'Get access to our exclusive Skellies',
+    '',
   buttonLabel: 'Summon now!',
   imgStart: false,
   img: require('../../images/svg-1.svg'),

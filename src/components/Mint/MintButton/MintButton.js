@@ -62,7 +62,8 @@ const MintButton = () => {
         value: (50000000000000000 * amount).toString(),
       });
     } catch (err) {
-      alert(err);
+      alert("Sorry, you need more ETH.");
+      
     }
   };
   return (
