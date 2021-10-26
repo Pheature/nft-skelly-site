@@ -13,6 +13,8 @@ import {
   ArrowRight
 } from './HeroElements';
 
+import Mint from "../Mint/Mint"
+
 function HeroSection() {
   const [hover, setHover] = useState(false);
 
@@ -25,7 +27,7 @@ function HeroSection() {
         <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-    
+      <Mint/>
       </HeroContent>
     </HeroContainer>
   );
